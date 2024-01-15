@@ -19,11 +19,17 @@ class operations
       return a*b;      // multiplication function return value               
    
    }
+   static int div(int a , int b)  // this is division function
+   {
+      return a/b;      // division function return value               
+   
+   }
    public static void main(String args[])
    {
       System.out.println(add(20,30));   // addition function is called
       System.out.println(sub(30,20));   // subtraction function is called
       System.out.println(mul(30,20));   // multiplication function is called
+      System.out.println(div(30,20));   // division function is called
    
    }
 
