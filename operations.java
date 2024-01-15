@@ -14,10 +14,16 @@ class operations
       return a-b;      // subtraction function return value               
    
    }
+   static int mul(int a , int b)  // this is multiplication function
+   {
+      return a*b;      // multiplication function return value               
+   
+   }
    public static void main(String args[])
    {
       System.out.println(add(20,30));   // addition function is called
       System.out.println(sub(30,20));   // subtraction function is called
+      System.out.println(mul(30,20));   // multiplication function is called
    
    }
 
