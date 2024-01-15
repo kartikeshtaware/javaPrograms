@@ -39,6 +39,21 @@ class operations
       return a*a*a;      // cube function return value               
    
    }
+   static int fuctorial(int a)  // this is fuctorial function
+   {
+   
+      int fact = 1;
+      int c = a;
+      for(int i =c; i <=1 ; i--)
+      {
+        fact = fact*i;
+        
+      
+      }
+      return fact;  // fuctorial function return value      
+                  
+   
+   }
    public static void main(String args[])
    {
       System.out.println(add(20,30));   // addition function is called
@@ -48,6 +63,7 @@ class operations
       System.out.println(mod(30,2));   // modulus function is called
       System.out.println(square(3));   // square function is called
       System.out.println(cube(3));   // cube function is called
+      System.out.println(fuctorial(3));   // fuctorial function is called
       
    
    }
