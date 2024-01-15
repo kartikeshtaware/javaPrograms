@@ -34,6 +34,11 @@ class operations
       return a*a;      // square function return value               
    
    }
+   static int cube(int a)  // this is cube function
+   {
+      return a*a*a;      // cube function return value               
+   
+   }
    public static void main(String args[])
    {
       System.out.println(add(20,30));   // addition function is called
@@ -41,7 +46,9 @@ class operations
       System.out.println(mul(30,20));   // multiplication function is called
       System.out.println(div(30,20));   // division function is called
       System.out.println(mod(30,2));   // modulus function is called
-      System.out.println(square(3));   // modulus function is called
+      System.out.println(square(3));   // square function is called
+      System.out.println(cube(3));   // cube function is called
+      
    
    }
 
